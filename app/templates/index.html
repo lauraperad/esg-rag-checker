@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ESG RAG Checker</title>
+</head>
+<body style="font-family: Arial;">
+    <h2>Verificador ESG - Upload de Documento</h2>
+    <form action="/analisar" method="post" enctype="multipart/form-data">
+        <label for="pergunta">Pergunta:</label>
+        <input type="text" name="pergunta" required><br><br>
+        <label for="arquivo">Documento (.txt ou .pdf):</label>
+        <input type="file" name="arquivo" required><br><br>
+        <input type="submit" value="Analisar">
+    </form>
+</body>
+</html>
